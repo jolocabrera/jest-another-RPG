@@ -14,26 +14,6 @@ test('creates an enemy object', () => {
     expect(enemy.potion).toEqual(expect.any(Object));
 });
 
-// test("Gets enemys stats as an object", () => {
-//     const enemy = new enemy('Dave');
-
-    
-//     expect(enemy.getStats()).toHaveProperty('potions');
-//     expect(enemy.getStats()).toHaveProperty('health');
-//     expect(enemy.getStats()).toHaveProperty('strength');
-//     expect(enemy.getStats()).toHaveProperty('agility');
-// });
-
-// test("gets inventory from enemy or returns false", () => {
-//     const enemy = new enemy('Dave');
-
-//     expect(enemy.getInventory()).toEqual(expect.any(Array));
-
-//     enemy.inventory = [];
-
-//     expect(enemy.getInventory()).toEqual(false);
-// });
-
 test("gets enemy's health value", () => {
     const enemy = new Enemy('goblin','sword');
 
